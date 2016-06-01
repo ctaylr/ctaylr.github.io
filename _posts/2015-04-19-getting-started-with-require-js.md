@@ -12,7 +12,7 @@ As usual, this isn't always useful in EVERY project you're likely to undertake. 
 ## Getting set up
 The initial setup for require.js is fairly simple - go to the homepage and download a copy of the script. Then include it at the bottom of your page like any other script. There is one extra attribute to be aware of. "data-main" tells require.js of the first module to include once it has loaded:
 
-    &lt;script type="text/javascript" data-main="js/main" src="js/require.js"&gt;&lt;/script&gt;
+    <script type="text/javascript" data-main="js/main" src="js/require.js"></script>
 
 Here, I'm telling require.js to load, and using this attribute to pass "js/main.js", which will be the file it loads initially - the file that will control the rest of the application. Note here, that I haven't specified the .js extension on my main file - this is intentional, as require.js will add this for me when it requests the document.
 
