@@ -51,7 +51,7 @@ console.error - throws a custom js error message to the console
 
 console.warn - throws a js warning message to the console
 
-    console.error("What happened there?");
+    console.warn("What happened there?");
 
 ![Console.warn example](/public/images/consolewarn.png)
 
