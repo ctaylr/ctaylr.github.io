@@ -13,7 +13,7 @@ Everyone knows about console.log, right? It allows a user to write a message to 
 
     console.log(obj);
 
-![Console.log example]({{site.baseurl}}/_images/consolelog.png)
+![Console.log example](/_images/consolelog.png)
 
 
 ## console.table is awesome
@@ -21,14 +21,14 @@ But did you know about console.table? I certainly didn't. Console.table allows y
 
     console.table(obj.items);
 
-![Console.table example]({{site.baseurl}}/_images/consoletable.png)
+![Console.table example](/_images/consoletable.png)
 
 
 You can EVEN filter the table further by providing an array of field names as a second parameter in the statement:
 
     console.table(obj.items,["field1","field3"]);
 
-![Console.table example 2]({{site.baseurl}}/_images/consoletable2.png)
+![Console.table example 2](/_images/consoletable2.png)
 
 Pretty neat huh? Since I've worked heavily recently with JSON API's and part of the information I've been trawling through was to check data to make sure the system was outputting the correct fields, this would have been VERY handy indeed. Hindsight - its a wonderful thing.
 
@@ -39,28 +39,28 @@ console.info - like console.log but highlights with a little exclamation mark
 
     console.info("We're nearly there.")
 
-![Console.info example]({{site.baseurl}}/_images/consoleinfo.png)
+![Console.info example](/_images/consoleinfo.png)
 
 
 console.error - throws a custom js error message to the console
 
     console.error("SOMETHING WENT WRONG");
 
-![Console.error example]({{site.baseurl}}/_images/consoleerror.png)
+![Console.error example](/_images/consoleerror.png)
 
 
 console.warn - throws a js warning message to the console
 
     console.error("SOMETHING WENT WRONG");
 
-![Console.warn example]({{site.baseurl}}/_images/consolewarn.png)
+![Console.warn example](/_images/consolewarn.png)
 
 
 console.debug - throws a debugging message to the console
 
     console.debug("Whats going on?");
 
-![Console.debug example]({{site.baseurl}}/_images/consoledebug.png)
+![Console.debug example](/_images/consoledebug.png)
 
 
 console.group - console.groupEnd - This allows you to group together a bunch of console.log messages into a "group", like a collapsible accordion of console messages.
@@ -70,7 +70,7 @@ console.group - console.groupEnd - This allows you to group together a bunch of 
     console.log("google");
     console.groupEnd();
 
-![Console.group example]({{site.baseurl}}/_images/consolegroup.png)
+![Console.group example](/_images/consolegroup.png)
 
 
 console.time - console.timeEnd - this allows you to time a certain set of instructions and output how long they took. You pass a unique string to identify the timer
@@ -80,7 +80,7 @@ console.time - console.timeEnd - this allows you to time a certain set of instru
       console.timeEnd("test");
     },1500);
 
-![Console.time example]({{site.baseurl}}/_images/consoletime.png)
+![Console.time example](/_images/consoletime.png)
 
 
 I've created a codepen filled with the examples I've talked about above. Find it below, and feel free to play around. Hopefully at least some of these will give you the same "light-bulb" moment they gave me:
