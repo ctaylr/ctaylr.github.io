@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Having fun with the developer console
 layout: post
 ---
