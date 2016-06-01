@@ -12,6 +12,7 @@ The Chrome developer console is a fun example of this; It contains a number of s
 Everyone knows about console.log, right? It allows a user to write a message to the browser console from their code. Here's an example:
 
     console.log(obj);
+
 ![Console.log example]({{site.baseurl}}/_images/consolelog.png)
 
 
@@ -19,6 +20,7 @@ Everyone knows about console.log, right? It allows a user to write a message to 
 But did you know about console.table? I certainly didn't. Console.table allows you to pretty print variables (arrays and objects) in a readable, sortable table.
 
     console.table(obj.items);
+
 ![Console.table example]({{site.baseurl}}/_images/consoletable.png)
 
 
