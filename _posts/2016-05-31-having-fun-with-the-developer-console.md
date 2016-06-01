@@ -1,5 +1,7 @@
 ---
 published: false
+title: Having fun with the developer console
+layout: post
 ---
 I've been working as a web developer for many years now. It's one of those areas where you can't possibly know everything (if you claim to, you are wrong) - there is just too much going on, and its constantly changing or being added to.
 
