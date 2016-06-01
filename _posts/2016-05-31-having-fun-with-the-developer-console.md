@@ -25,6 +25,7 @@ But did you know about console.table? I certainly didn't. Console.table allows y
 You can EVEN filter the table further by providing an array of field names as a second parameter in the statement:
 
     console.table(obj.items,["field1","field3"]);
+
 ![Console.table example 2]({{site.baseurl}}/_posts/consoletable2.png)
 
 Pretty neat huh? Since I've worked heavily recently with JSON API's and part of the information I've been trawling through was to check data to make sure the system was outputting the correct fields, this would have been VERY handy indeed. Hindsight - its a wonderful thing.
@@ -35,24 +36,28 @@ It doesn't stop at console.table. There are a bunch of other useful console func
 console.info - like console.log but highlights with a little exclamation mark
 
     console.info("We're nearly there.")
+
 ![Console.info example]({{site.baseurl}}/_posts/consoleinfo.png)
 
 
 console.error - throws a custom js error message to the console
 
     console.error("SOMETHING WENT WRONG");
+
 ![Console.error example]({{site.baseurl}}/_posts/consoleerror.png)
 
 
 console.warn - throws a js warning message to the console
 
     console.error("SOMETHING WENT WRONG");
+
 ![Console.warn example]({{site.baseurl}}/_posts/consolewarn.png)
 
 
 console.debug - throws a debugging message to the console
 
     console.debug("Whats going on?");
+
 ![Console.debug example]({{site.baseurl}}/_posts/consoledebug.png)
 
 
@@ -62,6 +67,7 @@ console.group - console.groupEnd - This allows you to group together a bunch of 
     console.log("hi");
     console.log("google");
     console.groupEnd();
+
 ![Console.group example]({{site.baseurl}}/_posts/consolegroup.png)
 
 
@@ -71,6 +77,7 @@ console.time - console.timeEnd - this allows you to time a certain set of instru
     setTimeout(function(){
       console.timeEnd("test");
     },1500);
+
 ![Console.time example]({{site.baseurl}}/_posts/consoletime.png)
 
 
